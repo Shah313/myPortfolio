@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+            Tourist Spot
+    </title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"><span>T</span>ourist <span>S</span>pot</a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container  -->
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email" />
+        <input type="password" class="box" placeholder="enter your password" />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+      </form>
+    </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>Let <span class=fear><b>your adventures </b> </span> take you further than your <span class="fear"> <b>fears </b> </span></p>
+        <a href="#" class="btn">Lets Adventure together</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn active" data-src="videos/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="videos/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="videos/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="videos/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="videos/vid-5.mp4"></span>
+        
+      </div>
+
+      <div class="video-container">
+        <video
+          src="videos/vid-4.mp4"
+          id="video-slider"
+          loop
+          autoplay
+          muted
+        ></video>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- book section starts  -->
+
+    <section class="book" id="book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/book-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <h3>where to</h3>
+            <input type="text" placeholder="place name" />
+          </div>
+          <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of guests" />
+          </div>
+          <div class="inputBox">
+            <h3>arrivals</h3>
+            <input type="date" />
+          </div>
+          <div class="inputBox">
+            <h3>leaving</h3>
+            <input type="date" />
+          </div>
+          <input type="submit" class="btn" value="book now" />
+        </form>
+      </div>
+    </section>
+
+    <!-- book section ends -->
+
+    <!-- packages section starts  -->
+
+    <section class="packages" id="packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="arang-kel.jpg" alt="Kashmir" /> 
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Arang Kel</h3>
+            <p>
+              Arang Kel is a village and tourist spot in the Neelam valley of
+              Azad Kashmir, Pakistan.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+             <p>RS $50.00 <span>$70.00</span></p> </div>
+              <div class="tour-date">
+                <p>January 25 , 2022</p>
+            
+
+              
+               <p> <span>5 Days 4 nights</span> </p>
+
+                <a href="#" class="btn">book now</a>
+            
+            </div>
+
+           
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="fm.jpg" alt="Nanga - Parbat" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Feary Meadows</h3>
+            <p>
+              Fairy Meadows,
+              is a grassland near one of the base camp sites of the Nanga
+              Parbat, in Gilgit-Baltistan, Pakistan.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              <p>RS $90.00 <span>$110.00</span> </p>
+              </div>
+            <div class="tour-date">
+              <p>Febuary 02, 2022</p>
+      
+
+          
+              <p> <span> 9 Days 7 nights</span></p>
+            </div>
+
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="kalam-14.jpg" alt="Kalam" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Kalam</h3>
+            <p>
+              Kalam is a valley located at distance of 99 kilometres from
+              Mingora in the northern upper reaches of Swat valley.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">
+              <p>RS $70.00 <span>$90.00</span></p></div>
+            <div class="tour-date">
+              <p>Febuary 20, 2022</p>
+            </div>
+
+            <div class="tour-duration">
+              <p> <span>7 Days 6 nights</span></p>
+            </div>
+
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="kumrat1.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Kumrat</h3>
+            <p>
+              Kumrat is a valley in the Upper Dir District of Khyber Pakhtunkhwa.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"> <p>RS $80.00 <span>
+              $100.00</span>  </p> </div>
+            <div class="tour-date">
+              <p>March 1, 2022</p>
+        
+              <p><span> Days 7 nights </span></p>
+            </div>
+
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="skardu2.jpg" alt="" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Skardu</h3>
+            <p>
+              Skardu is a city located in Gilgit−Baltistan.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><p> RS $100.00 <span>  $120.00</span> </p></div>
+            <div class="tour-date">
+              <p>March 25, 2022</p>
+      
+              <p> <span>  10 Days 9 nights </span></p>
+            </div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="ziarat-1.jpg" alt="Balochistan" />
+          <div class="content">
+            <h3><i class="fas fa-map-marker-alt"></i> Ziarat</h3>
+            <p>
+              Ziarat is a city in the Ziarat District situated in the
+              Balochistan.
+            </p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price"><p> RS $50.00 <span> $70.00 </span></p></div>
+            <div class="tour-date">
+              <p>April 10, 2022</p>
+              <p> <span> 5 Days 4 nights </span> </p>
+            </div>
+            <a href="#" class="btn">book now</a>
+          </div>
+        </div>
+      
+    </section>
+
+    <!-- packages section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-hotel"></i>
+          <h3>affordable hotels</h3>
+          <p>
+            Good quality hotels in affordable price with comfortable bed.
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-utensils"></i>
+          <h3>food and drinks</h3>
+          <p>
+
+            Tasty food and drinks available!
+              
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-bullhorn"></i>
+          <h3>safety guide</h3>
+          <p>
+             Comfortable and no need to any worry about whole traveling process.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-plane"></i>
+          <h3>fastest travel</h3>
+          <p>
+            Airline,Train and bus service availabe as per your budget
+          </p>
+        </div>
+        <div class="box">
+          <i class="fas fa-hiking"></i>
+          <h3>adventures</h3>
+          <p>
+           Adventure is Our passion! 
+            so Lets Adventure together..
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="katora.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing Lakes</h3>
+            <p>
+              Katora Lake is an alpine glacial lake located in Kumrat valley in Upper Dir District of Khyber.
+
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="OB1.jpg" alt="beach" />
+          <div class="content">
+            <h3>Amazing beaches</h3>
+            <p>
+              Clifton Beach, also known as Sea View in Karachi.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="nelum.jpg" alt="neelum" />
+          <div class="content">
+            <h3>Amazing Valleys</h3>
+            <p>
+              The district of Neelum located
+              within the Pakistani-administered territory of Azad Kashmir.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="passu-1.jpg" alt="" />
+          <div class="content">
+            <h3>Amazing Mountains</h3>
+            <p>
+              Passu is a mountain peak , a sub-range of the
+              Karakoram mountain in 
+              Gilgit-Baltistan, Pakistan.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="taobat-1.jpg" alt="kashmir" />
+          <div class="content">
+            <h3>Amazing Rivers</h3>
+            <p>
+              Taobat is a village in Sharda Tehsil in Neelam Valley, Azad
+              Kashmir, Pakistan. 
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ratti-optim.jpg" alt="kashmir" />
+          <div class="content">
+            <h3>amazing Glacial Lakes</h3>
+            <p>
+              Ratti Gali Lake is an alpine glacial lake which is located in
+              Neelum Valley, Azad Kashmir.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="ca-2.jpg" alt="gilgit" />
+          <div class="content">
+            <h3>Amazing Landscapes</h3>
+            <p>
+              Ghizer is the westernmost part of the Gilgit-Baltistan region of
+              Pakistan.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="carousel-2.jpg" alt="lake" />
+          <div class="content">
+            <h3>Amazing Glaciers</h3>
+            <p>
+              Karambar Lake is a high altitude lake located in Ishkoman Valley
+              of District Ghizer, Gilgit Baltistan.
+            </p>
+            <a href="#" class="btn">see more</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+      </h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic1.png" alt="" />
+              <h3>Anjelina</h3>
+              <p>
+                Tourist Spot is the best traveling agency.
+                I highly recommend everyone who want to adventure.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic2.png" alt="" />
+              <h3>john deo</h3>
+              <p>
+                Tourist Spot know how to travel.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic3.png" alt="" />
+              <h3>Maria</h3>
+              <p>
+
+                Wonderful experience with Tourist Spot
+                
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="images/pic4.png" alt="" />
+              <h3>Christopher</h3>
+              <p>
+
+                I definitely visit again with Tourist Spot
+
+
+                 
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/contact-img.svg" alt="" />
+        </div>
+
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name" />
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" placeholder="subject" />
+          </div>
+          <textarea
+            placeholder="message"
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- brand section  -->
+
+   
+
+    <section class="brand" id="brand">
+      
+
+
+
+    <div class="brand-container">
+      <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/7.PNG" alt="" /></div>
+          <div class="swiper-slide"><img src="images/8.PNG" alt="" /></div>
+          <div class="swiper-slide"><img src="images/9.PNG" alt="" /></div>
+          <div class="swiper-slide"><img src="images/10.PNG" alt="" /></div>
+          <div class="swiper-slide"><img src="images/12.PNG" alt="" /></div>
+          <div class="swiper-slide"><img src="images/13.PNG" alt="" /></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About us</h3>
+          <p>
+
+            We are Travellers, We are here to plan your dream travelling experience in to reality
+            Traveling is our passion not business. Come and discover new places with us!
+
+          </p>
+        </div>
+        <div class="box">
+          <h3>Branch locations</h3>
+          <a href="#">Karachi</a>
+          <a href="#">Lahore</a>
+          <a href="#">Islamabad</a>
+          <a href="#">Peshawar</a>
+          <a href="#">Quetta</a>
+        </div>
+        <div class="box">
+          <h3>Quick links</h3>
+          <a href="#">home</a>
+          <a href="#">book</a>
+          <a href="#">packages</a>
+          <a href="#">services</a>
+          <a href="#">gallery</a>
+          <a href="#">review</a>
+          <a href="#">contact</a>
+        </div>
+        <div class="box">
+          <h3>Follow us</h3>
+          <a href="#"><img src="images/icons/fb.png" alt="fb"></a>
+          <a href="#"> <img src="images/icons/insta.png" alt="instagram"> </a>
+          <a href="#"> <img src="images/icons/twi.png" alt="twitter"> </a>
+          <a href="#"> <img src="images/icons/you.png" alt="Youtube"> </a>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Created by <span> S.M.S </span> | all rights reserved!
+      </h1>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

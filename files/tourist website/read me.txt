@@ -1,0 +1,6 @@
+Tourist Spot is a traveling website in which 7 sections for different content design  with "flex box" layout fully responsive 
+"javascript" use in search bar,login form and videos to play via control button.
+also use swiper plugin to slide content.
+
+Thanks regards 
+Syed Muhammad Shoaib
